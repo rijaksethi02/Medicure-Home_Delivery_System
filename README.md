@@ -6,18 +6,16 @@ This Website is basically a Home Delivery System, allowing the customers to orde
 ## Web Designing
 ### Front End
 1. HTML is a standard markup language for designing any web pages. We can create a simple webpage using HTML. It has so many tags to design any webpage.
-We have used HTML in our project to make basic structure of webpage. We can add title of webpage using <title> tag in <head> section of HTML code. We can add heading tag <h1> to
-<h6> to give heading to any content. We have divided home page into different sections like Menu, Item search, Explore product and footer by using <div> tag and added links in menu bar by using anchor tag <a href> and navigation tag.
+We have used HTML in our project to make basic structure of webpage. We can add title of webpage using title tag in head section of HTML code. We can add heading tag h1 to h6 to give heading to any content. We have divided home page into different sections like Menu, Item search Explore product and footer by using div tag and added links in menu bar by using anchor tag a href and navigation tag.
 We have created forms for different pages (order product in user panel and add admin, update
-admin, add product, update product and login page in admin panel ) by using different attributes of <form> and <table> tag like Input type, method, border, placeholder etc.
- 
-Bgcolor and background-image attributes in <body> of HTML code are used for adding background color and background image respectively in webpage. We can give specific height and width to image using HTML.
-We have aligned text or image in webpage (center, left or right) by using align attribute in HTML[6].
-There are so many tags of HTML[1] that we have used in our webpage design like <h1> for heading, <p> for paragraph, <b> for bold any content , <br> for break any line, <tr> for table row, <td> for table data and <ul> for unordered list.
+admin, add product, update product and login page in admin panel ) by using different attributes of form and table tag like Input type, method, border, placeholder etc.
+Bgcolor and background-image attributes in body of HTML code are used for adding background color and background image respectively in webpage. We can give specific height and width to image using HTML.
+We have aligned text or image in webpage (center, left or right) by using align attribute in HTML.
+There are so many tags of HTML that we have used in our webpage design like h1 for heading, p for paragraph, b for bold any content , br for break any line, tr for table row, td for table data and ul for unordered list.
 We have added links with images, logo and icons using anchor tag. So, by clicking on that image or icon we can reach linked page or linked content.
 We have linked external CSS file in HTML file by using below attribute:
 
-<link rel=”stylesheet” href=”css/style.css”>
+link rel=”stylesheet” href=”css/style.css”
 
 And we can use CSS in any HTML tag by using class attribute.
 
@@ -57,8 +55,8 @@ We have used hover selector to give different color to button on mouse over:
 background-color: #f0932b;
 }
 
-3. Javascript is an script based programming language. With the help of javascript we can make our webpage more interactive and functional. It allows us to change HTML content. Javascript can be added inside <script> tag (internally or Externally ) in body of HTML code.
-We have used some functions and events of javascript[3] in our webpage. We have added some mouse events like onmouseover, onmouseout and onclick event and some form events like onfocus and onblur in our webpage.
+3. Javascript is an script based programming language. With the help of javascript we can make our webpage more interactive and functional. It allows us to change HTML content. Javascript can be added inside script tag (internally or Externally ) in body of HTML code.
+We have used some functions and events of javascript in our webpage. We have added some mouse events like onmouseover, onmouseout and onclick event and some form events like onfocus and onblur in our webpage.
 
 ### Back End
 1. MySQL - We have used mysql database to save our data which is an open source relational database management system.
