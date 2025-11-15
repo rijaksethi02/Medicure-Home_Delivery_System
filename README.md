@@ -6,39 +6,40 @@ This Website is basically a Home Delivery System, allowing the customers to orde
 ## Web Designing
 ### Front End
 1. HTML is a standard markup language for designing any web pages. We can create a simple webpage using HTML. It has so many tags to design any webpage.
-We have used HTML in our project to make basic structure of webpage. We can add title of webpage using title tag in head section of HTML code. We can add heading tag h1 to h6 to give heading to any content. We have divided home page into different sections like Menu, Item search Explore product and footer by using div tag and added links in menu bar by using anchor tag a href and navigation tag.
-We have created forms for different pages (order product in user panel and add admin, update
-admin, add product, update product and login page in admin panel ) by using different attributes of form and table tag like Input type, method, border, placeholder etc.
-Bgcolor and background-image attributes in body of HTML code are used for adding background color and background image respectively in webpage. We can give specific height and width to image using HTML.
-We have aligned text or image in webpage (center, left or right) by using align attribute in HTML.
-There are so many tags of HTML that we have used in our webpage design like h1 for heading, p for paragraph, b for bold any content , br for break any line, tr for table row, td for table data and ul for unordered list.
-We have added links with images, logo and icons using anchor tag. So, by clicking on that image or icon we can reach linked page or linked content.
-We have linked external CSS file in HTML file by using below attribute:
+* We have used HTML in our project to make basic structure of webpage. We can add title of webpage using title tag in head section of HTML code. 
+* We can add heading tag h1 to h6 to give heading to any content. 
+* We have divided home page into different sections like Menu, Item search Explore product and footer by using div tag and added links in menu bar by using anchor tag a href and navigation tag.
+* We have created forms for different pages (order product in user panel and add admin, update admin, add product, update product and login page in admin panel ) by using different attributes of form and table tag like Input type, method, border, placeholder etc.
+* Bgcolor and background-image attributes in body of HTML code are used for adding background color and background image respectively in webpage. * We can give specific height and width to image using HTML.
+* We have aligned text or image in webpage (center, left or right) by using align attribute in HTML.
+* There are so many tags of HTML that we have used in our webpage design like h1 for heading, p for paragraph, b for bold any content , br for break any line, tr for table row, td for table data and ul for unordered list.
+* We have added links with images, logo and icons using anchor tag. So, by clicking on that image or icon we can reach linked page or linked content.
+* We have linked external CSS file in HTML file by using below attribute:
 link rel=”stylesheet” href=”css/style.css”
-And we can use CSS in any HTML tag by using class attribute.
+* And we can use CSS in any HTML tag by using class attribute.
 
 2. CSS is a style sheet language to style any HTML document. It describes how HTML elements should be displayed. It has Selectors like Element selector, ID selector, Class selector, universal selector and grouping selector. We have used all types of selectors to design our webpage.
 We have created many classes and ids in CSS file to use them in our HTML code. We have created classes for align text, change font-family and font-style, insert background color and background images, giving specific width and height to any image, changing border style and border radius, float image or text, giving margin and padding to our specific content.
 We can use class and id in any HTML tag by using class and id attribute. So, with the help of classes we can change style of any HTML content and make our webpage more interactive.
 So, there are many other classes that we have used to style our webpage some of them are mentioned below.
-We have used wrapper class to give specific width padding and margin to our specific content.
+* We have used wrapper class to give specific width padding and margin to our specific content.
 .wrapper
 {
 padding:1%; width:80%; margin: 0 auto;
 }
-We have used following selector to give styles to all tables: table tr th
+* We have used following selector to give styles to all tables: table tr th
 {
 border-bottom: 1px solid black; padding:1%;
 text-align: left;
 }
-We have used btn-primary class to give style to button like background color, padding and margin:
+* We have used btn-primary class to give style to button like background color, padding and margin:
 .btn-primary
 {
 background-color:darksalmon; padding:1%;
 margin:1%; color:white;
 text-decoration: none; font-weight: bold;
 }
-We have used hover selector to give different color to button on mouse over:
+* We have used hover selector to give different color to button on mouse over:
 .btn-primary:hover
 {
 background-color: #f0932b;
