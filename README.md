@@ -14,18 +14,14 @@ We have aligned text or image in webpage (center, left or right) by using align 
 There are so many tags of HTML that we have used in our webpage design like h1 for heading, p for paragraph, b for bold any content , br for break any line, tr for table row, td for table data and ul for unordered list.
 We have added links with images, logo and icons using anchor tag. So, by clicking on that image or icon we can reach linked page or linked content.
 We have linked external CSS file in HTML file by using below attribute:
-
 link rel=”stylesheet” href=”css/style.css”
-
 And we can use CSS in any HTML tag by using class attribute.
 
 2. CSS is a style sheet language to style any HTML document. It describes how HTML elements should be displayed. It has Selectors like Element selector, ID selector, Class selector, universal selector and grouping selector. We have used all types of selectors to design our webpage.
 We have created many classes and ids in CSS file to use them in our HTML code. We have created classes for align text, change font-family and font-style, insert background color and background images, giving specific width and height to any image, changing border style and border radius, float image or text, giving margin and padding to our specific content.
- 
 We can use class and id in any HTML tag by using class and id attribute. So, with the help of classes we can change style of any HTML content and make our webpage more interactive.
 So, there are many other classes that we have used to style our webpage some of them are mentioned below.
 We have used wrapper class to give specific width padding and margin to our specific content.
-
 .wrapper
 {
 padding:1%; width:80%; margin: 0 auto;
@@ -35,21 +31,14 @@ We have used following selector to give styles to all tables: table tr th
 border-bottom: 1px solid black; padding:1%;
 text-align: left;
 }
-
-
 We have used btn-primary class to give style to button like background color, padding and margin:
-
 .btn-primary
 {
 background-color:darksalmon; padding:1%;
- 
 margin:1%; color:white;
 text-decoration: none; font-weight: bold;
 }
-
 We have used hover selector to give different color to button on mouse over:
-
-
 .btn-primary:hover
 {
 background-color: #f0932b;
@@ -60,12 +49,9 @@ We have used some functions and events of javascript in our webpage. We have add
 
 ### Back End
 1. MySQL - We have used mysql database to save our data which is an open source relational database management system.
- 
 First of all we have created database “item-order” and four tables tbl_admin, tbl_category, tbl_item and tbl_order in the database item-order. After it we have created table structure and takes Id as a primary key with auto increment in all tables.
 We have created functionality to update, delete and add admin, update and delete Products and category by using basic sql commands and we have connected them with frontend and backend by using PHP programming language.
 We have used many sql queries to insert, update and delete these values in the database. Some of them are mentioned below:
-
-
 *	$sql= "SELECT * FROM tbl_category WHERE active='yes'";
 *	$sql= "SELECT * FROM tbl_item WHERE category_id=$category_id";
 *	$sql= "SELECT * FROM tbl_item WHERE active = 'Yes' AND featured='Yes' LIMIT 6";
@@ -73,5 +59,3 @@ We have used many sql queries to insert, update and delete these values in the d
 *	$sql = "DELETE FROM tbl_category WHERE id=$id";
 *	$sql = "DELETE FROM tbl_item WHERE id=$id";
 *	$sql2 = "SELECT *FROM tbl_item";
-
-
